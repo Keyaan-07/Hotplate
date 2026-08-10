@@ -2,3 +2,4 @@ hotplate-backups/
 /hardware/~*
 /hardware/fp-lib-table
 /hardware/_autosave-hotplate.*
+/hardware/.history/*
