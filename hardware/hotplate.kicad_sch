@@ -11393,7 +11393,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "40MHz"
 			(at 379.73 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12398,7 +12398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 82.2452 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -12631,7 +12631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "100"
 			(at 171.45 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13442,7 +13442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 143.2052 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -16391,7 +16391,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "15p"
 			(at 388.62 124.4662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18764,7 +18764,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a97308a9-500c-4207-8360-4ebc4c26032f")
 		(property "Reference" "C11"
 			(at 388.62 148.5962 0)
@@ -18777,7 +18777,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "15p"
 			(at 388.62 151.1362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19096,7 +19096,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b0516e63-5f8e-4476-9809-8460869af49b")
 		(property "Reference" "C10"
 			(at 370.84 148.5962 0)
@@ -19109,7 +19109,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "15p"
 			(at 370.84 151.1362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19335,7 +19335,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b4707431-365a-4910-acd5-60d4b5ee4abb")
 		(property "Reference" "Y2"
@@ -19348,7 +19348,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.786KHz"
 			(at 379.73 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20074,7 +20074,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "15p"
 			(at 370.84 124.4662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20242,7 +20242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 160.9852 165.1 0)
 			(hide yes)
 			(show_name no)

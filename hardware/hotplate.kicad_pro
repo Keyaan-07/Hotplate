@@ -76,28 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "items_not_allowed|108000000|109020000|a7e7fa0d-bbb1-42d9-9dc2-ddb1e7ec3116|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|110300000|109020000|05943566-bb5a-4b0c-a241-a4bfc7db24ca|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|115100000|111475000|fb7eeb43-2952-44c7-ba36-35a90378562b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|78730678|84984139|819316c7-d95b-4798-8e7a-41d341789691|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "solder_mask_bridge|108000000|109015176|52da4836-73ec-470a-8731-806886701e99|6ceb69a6-8ecd-4074-9022-c7583c355ff6",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -183,7 +162,7 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -683,7 +662,7 @@
         "uuid": "0d3ab786-cc19-46f2-8b7e-031773cdd8c2"
       }
     ],
-    "used_designators": "#PWR64-65,TP6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
