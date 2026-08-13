@@ -34,6 +34,8 @@ The heating element is made up of an aluminium PCB so that there is good thermal
 7. flash the firmware via a USB to UART converter. 
 8. connect the heating element. You are done!
 
+### Note about firmware
+I dont think i will be able to do the firmware unless and until i have the project in hand, because this requires proper PID tuning to just get the temperature right, and also it needs to be adjusted for errors in temperature measurement and power control!
 
 # BOM
 |Sr. No.|Designator                                            |Function             |Value                      |Footprint                                     |Quantity|Price         |Amount |Link                                              |
