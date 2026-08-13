@@ -3,3 +3,4 @@ hotplate-backups/
 /hardware/fp-lib-table
 /hardware/_autosave-hotplate.*
 /hardware/.history/*
+/HeatingElement/.history/*
