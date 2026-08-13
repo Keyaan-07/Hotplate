@@ -1,6 +1,24 @@
 # Hotplate
 An open-source hotplate designed to take power from USB type-C and then be configured and controlled over Wi-Fi. It uses the ESP32-C3 microcontroller, along with 16MB of storage. There are two terminal blocks to connect with the heating element and it's temperature sensor. There is short circuit protection along with accurate current measurement on the power lines. The control frequency is 10KHz for the heating element.
 
+
+Features:  
+- Upto 45W heating
+- Wi-Fi Controlled
+- Overcurrent protection & shortcircuit protection. 
+- accurate current measurement
+- Integrated temperature sensor
+- Open Source!
+- integrated ADC for NTC temperature readings
+  
+![zine](/media/HOTPLATE-zine.png)
+![3d-pcb](/media/3d-pcb-nobg.png)
+![pcb](/media/pcb.png)
+![heating element](/media/heating-element-nobg.png)
+![schematic](/media/schematic.svg)
+
+
+
 ### Why i made this project
 I really wanted to build a custom hotplate so that i could make my own PCBs with ease and not struggle!
 The heating element is made up of an aluminium PCB so that there is good thermal conductivity.
@@ -16,3 +34,53 @@ The heating element is made up of an aluminium PCB so that there is good thermal
 7. flash the firmware via a USB to UART converter. 
 8. connect the heating element. You are done!
 
+
+# BOM
+|Sr. No.|Designator                                            |Function             |Value                      |Footprint                                     |Quantity|Price         |Amount |Link                                              |
+|-------|------------------------------------------------------|---------------------|---------------------------|----------------------------------------------|--------|--------------|-------|--------------------------------------------------|
+|1      |PCB+Stencil                                           |PCB+Stencil          |PCB+Stencil                |PCB+Stencil                                   |5+1     |7+3.07        |10.07  |https://jlcpcb.com/                               |
+|2      |Aluminium PCB                                         |Heating element      |                           |                                              |5       |0.8           |4      |https://jlcpcb.com/                               |
+|2      |C1, C14, C15, C16, C17, C20, C21, C22, C23, C4, C6, C7|capacitors           |100n                       |402                                           |100     |0.0064        |0.64   |https://www.lcsc.com/product-detail/C100072.html  |
+|3      |C10, C11, C8, C9                                      |capacitors           |15p                        |402                                           |100     |0.0102        |1.02   |https://www.lcsc.com/product-detail/C326803.html  |
+|4      |C12                                                   |capacitors           |1.8p                       |402                                           |100     |0.0081        |0.81   |https://www.lcsc.com/product-detail/C327209.html  |
+|5      |C13                                                   |capacitors           |1.2p                       |402                                           |100     |0.0055        |0.55   |https://www.lcsc.com/product-detail/C327292.html  |
+|6      |C18, C19, C24                                         |capacitors           |1u                         |402                                           |50      |0.0162        |0.81   |https://www.lcsc.com/product-detail/C52923.html   |
+|7      |C2, C25, C26, C27, C3, C5                             |capacitors           |10u                        |805                                           |20      |0.1007        |2.014  |https://www.lcsc.com/product-detail/C15850.html   |
+|8      |D1, D2                                                |LED                  |LED                        |402                                           |50      |0.0084        |0.42   |https://www.lcsc.com/product-detail/C25503345.html|
+|9      |D3, D4                                                |ESD protection diodes|ESDA5V3L                   |SOT-23-3                                      |5       |0.1017        |0.5085 |https://www.lcsc.com/product-detail/C87911.html   |
+|10     |D5                                                    |buck diode           |1N4148W                    |D_SOD-123                                     |50      |0.0084        |0.42   |https://www.lcsc.com/product-detail/C917030.html  |
+|11     |J1                                                    |USB connector        |USB_C_Receptacle_USB2.0_16P|USB_C_Receptacle_XKB_U262-16XN-4BVC11         |10      |0.062         |0.62   |https://www.lcsc.com/product-detail/C393939.html  |
+|12     |J2, J3                                                |Screw terminals      |Screw_Terminal_01x02       |TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm|5       |0.102         |0.51   |https://www.lcsc.com/product-detail/C474881.html  |
+|13     |J4                                                    |                     |Conn_01x04_Pin             |PinHeader_1x04_P2.54mm_Vertical               |5       |0.0319        |0.1595 |https://www.lcsc.com/product-detail/C32713270.html|
+|14     |L1, L2                                                |                     |4.7u                       |805                                           |5       |0.1004        |0.502  |https://www.lcsc.com/product-detail/C17701166.html|
+|15     |L3                                                    |                     |3n                         |402                                           |20      |0.0042        |0.084  |https://www.lcsc.com/product-detail/C142230.html  |
+|16     |Q1, Q2, Q3                                            |                     |AON7262E                   |DFN-5-1EP_3x3mm_P0.65mm_AON7262E              |3       |0.65          |1.95   |https://www.lcsc.com/product-detail/C176755.html  |
+|17     |R1                                                    |                     |30                         |402                                           |100     |0.0006        |0.06   |https://www.lcsc.com/product-detail/C54920779.html|
+|18     |R10, R14, R15, R9                                     |                     |5.1k                       |402                                           |100     |0.0054        |0.54   |https://www.lcsc.com/product-detail/C105872.html  |
+|19     |R11                                                   |                     |1k                         |402                                           |100     |0.0041        |0.41   |https://www.lcsc.com/product-detail/C106235.html  |
+|20     |R12, R13                                              |                     |100k                       |402                                           |100     |0.0044        |0.44   |https://www.lcsc.com/product-detail/C60491.html   |
+|21     |R16, R18, R3, R6, TH1                                 |                     |10k                        |402                                           |100     |0.0038        |0.38   |https://www.lcsc.com/product-detail/C60490.html   |
+|22     |R17                                                   |                     |31.6k                      |402                                           |100     |0.0021        |0.21   |https://www.lcsc.com/product-detail/C2998091.html |
+|23     |R2                                                    |                     |56k                        |402                                           |100     |0.0018        |0.18   |https://www.lcsc.com/product-detail/C2906875.html |
+|24     |R4, R7, R8                                            |                     |100                        |402                                           |100     |0.0044        |0.44   |https://www.lcsc.com/product-detail/C106232.html  |
+|25     |R5                                                    |                     |5m                         |805                                           |10      |0.0514        |0.514  |https://www.lcsc.com/product-detail/C22450690.html|
+|26     |U1                                                    |                     |ESP32-C3                   |QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm           |1       |1.85          |1.85   |https://www.lcsc.com/product-detail/C2838500.html |
+|27     |U10                                                   |                     |W25Q128JVP                 |WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm          |1       |3.47          |3.47   |https://www.lcsc.com/product-detail/C190862.html  |
+|28     |U2                                                    |                     |TPS56339DDC                |SOT-23-6                                      |1       |0.37          |0.37   |https://www.lcsc.com/product-detail/C2071106.html |
+|29     |U3                                                    |                     |AP33772SDKZ-xx-FA02        |QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm           |1       |2.69          |2.69   |https://www.lcsc.com/product-detail/C5244513.html |
+|30     |U4, U6                                                |                     |TXS0101DBV                 |SOT-23-6                                      |2       |0.585         |1.17   |https://www.lcsc.com/product-detail/C132604.html  |
+|31     |U5                                                    |                     |TMP100                     |SOT-23-6                                      |1       |1.02          |1.02   |https://www.lcsc.com/product-detail/C31810.html   |
+|32     |U7                                                    |                     |ADS1110                    |SOT-23-6                                      |1       |1.5           |1.5    |https://www.lcsc.com/product-detail/C16598.html   |
+|33     |U8                                                    |                     |LM2842Y                    |TSOT-23-6                                     |5       |0.2226        |1.113  |https://www.lcsc.com/product-detail/C30170092.html|
+|34     |U9                                                    |                     |MCP1416                    |SOT-23-5                                      |1       |0.52          |0.52   |https://www.lcsc.com/product-detail/C83775.html   |
+|35     |Y1                                                    |                     |40MHz                      |Crystal_SMD_3225-4Pin_3.2x2.5mm               |5       |0.0681        |0.3405 |https://www.lcsc.com/product-detail/C5261245.html |
+|36     |Y2                                                    |                     |32.786KHz                  |Crystal_SMD_3215-2Pin_3.2x1.5mm               |5       |0.19          |0.95   |https://www.lcsc.com/product-detail/C46604081.html|
+|       |                                                      |                     |                           |                                              |        |Total         |43.2555|                                                  |
+|       |                                                      |                     |                           |                                              |        |Parts shipping|11     |                                                  |
+|       |                                                      |                     |                           |                                              |        |JLC shipping  |16.7   |                                                  |
+|       |                                                      |                     |                           |                                              |        |total         |70.9555|                                                  |
+
+
+
+# License
+Licensed under the MIT license. 
