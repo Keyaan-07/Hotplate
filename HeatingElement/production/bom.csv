@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"J1, J2",TestPoint_Pad_4.0x4.0mm,2,Conn_01x01_Pin,
+"J3, J4",TestPoint_Pad_2.0x2.0mm,2,Conn_01x01_Pin,
+R1,0402,1,NTC,
