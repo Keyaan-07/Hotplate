@@ -540,6 +540,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "../3d/hotplate controller.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -3193,12 +3193,6 @@
 		(path "/25d61c23-5b6b-4f52-a696-740e0a1fcd96")
 		(sheetname "/")
 		(sheetfile "hotplate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "5" "1" "2" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3358,7 +3352,7 @@
 			(uuid "019dc3d9-4e64-4980-ad79-12f9de5a9a0e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Keyaa/Documents/Kicad/easyeda2kicad/easyeda2kicad.3dshapes/DFN-8_L3.3-W3.3-P0.65-BL.step"
+		(model "C:/Users/keyaa/Documents/Kicad/easyeda2kicad/easyeda2kicad.3dshapes/DFN-8_L3.3-W3.3-P0.65-BL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9781,14 +9775,6 @@
 		(path "/f31d9af1-02d1-45d7-9abd-fba4d11b7ed6")
 		(sheetname "/")
 		(sheetfile "hotplate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "SH" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
-					"A6" "B6" "A8" "B8"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10137,7 +10123,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/Users/Keyaa/Documents/Kicad/easyeda2kicad/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C16PIN.step"
+		(model "C:/Users/keyaa/Documents/Kicad/easyeda2kicad/easyeda2kicad.3dshapes/USB_C_Receptacle_XKB_U262-16XN-4BVC11.step"
 			(offset
 				(xyz 0 -1.2 0)
 			)
@@ -11999,12 +11985,6 @@
 		(path "/4d564e81-972b-49a9-8c4f-95dcc30c05dc")
 		(sheetname "/")
 		(sheetfile "hotplate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15088,12 +15068,6 @@
 		(path "/6456defc-137e-4898-b404-3cdf3f9d5268")
 		(sheetname "/")
 		(sheetfile "hotplate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15274,6 +15248,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)

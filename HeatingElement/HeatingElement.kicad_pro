@@ -542,6 +542,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "../3d/heatingelement.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

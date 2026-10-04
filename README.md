@@ -1,5 +1,5 @@
 # Hotplate
-An open-source hotplate designed to take power from USB type-C and then be configured and controlled over Wi-Fi. It uses the ESP32-C3 microcontroller, along with 16MB of storage. There are two terminal blocks to connect with the heating element and it's temperature sensor. There is short circuit protection along with accurate current measurement on the power lines. The control frequency is 10KHz for the heating element.
+An open-source hotplate designed to take power from USB type-C and then be configured and controlled over Wi-Fi. It uses the ESP32-C3 microcontroller, along with 16MB of storage. There are two terminal blocks to connect with the heating element and it's temperature sensor. There is short circuit protection along with accurate current measurement on the power lines. The control frequency is 10KHz for the heating element. The heating element can be mounted on standoffs so as to not heat the surface below it. 
 
 
 Features:  
@@ -11,12 +11,17 @@ Features:
 - Open Source!
 - integrated ADC for NTC temperature readings
   
-![zine](/media/HOTPLATE-zine.png)
-![3d-pcb](/media/3d-pcb-nobg.png)
-![pcb](/media/pcb.png)
-![heating element](/media/heating-element-nobg.png)
-![schematic](/media/schematic.svg)
+![zine](/media/HOTPLATE-zine.png)  
+![enclosure](/media/3d-assembly.png)  
+![internal parts](/media/3d-internal-assembly.png)  
+![3d-pcb](/media/3d-pcb-nobg.png)  
+![pcb](/media/pcb.png)  
+![heating element](/media/heating-element.png)  
+![schematic](/media/schematic.svg)  
 
+wiring diagram between two parts:   
+![wiring diagram](/media/wiring-diagram.png)  
+###### (made by yours truly in paint)
 
 
 ### Why i made this project
