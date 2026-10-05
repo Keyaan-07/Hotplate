@@ -1,6 +1,7 @@
 # Hotplate
 An open-source hotplate designed to take power from USB type-C and then be configured and controlled over Wi-Fi. It uses the ESP32-C3 microcontroller, along with 16MB of storage. There are two terminal blocks to connect with the heating element and it's temperature sensor. There is short circuit protection along with accurate current measurement on the power lines. The control frequency is 10KHz for the heating element. The heating element can be mounted on standoffs so as to not heat the surface below it. 
 
+Check out the Project's files on KiCanvas([PCB](https://github.com/Keyaan-07/Hotplate/tree/main/hardware) and [Heating element](https://github.com/Keyaan-07/Hotplate/tree/main/hardware)) and [Onshape](https://cad.onshape.com/documents/19aaa7739f645838b4ad0ae7/w/c026fb920f31f6c5ff4ae7d0/e/9c380aaf866f8abdd3d2d5e3)!
 
 Features:  
 - Upto 45W heating
@@ -21,7 +22,7 @@ Features:
 
 wiring diagram between two parts:   
 ![wiring diagram](/media/wiring-diagram.png)  
-###### (made by yours truly in paint)
+##### (made by yours truly in paint)
 
 
 ### Why i made this project
