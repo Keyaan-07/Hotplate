@@ -12,7 +12,7 @@ Features:
 - Open Source!
 - integrated ADC for NTC temperature readings
   
-
+![zine](/media/HOTPLATE-zine.png)
 ![enclosure](/media/3d-assembly.png)  
 ![internal parts](/media/3d-internal-assembly.png)  
 ![3d-pcb](/media/3d-pcb-nobg.png)  
